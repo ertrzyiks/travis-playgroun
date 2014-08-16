@@ -7,3 +7,4 @@ cd amxmodx-$version
 
 wget $base_url -O package-base.tar.gz
 tar -zxvf package-base.tar.gz
+chmod -R 0777 .
