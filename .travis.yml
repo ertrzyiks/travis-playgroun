@@ -1,5 +1,5 @@
 before_script:
   - wget http://sourcemod.gameconnect.net/files/amxmodx-1.8.2-base-linux.tar.gz
-  - tar -zxvf amxmodx-1.8.2-base-linux.tar.gz
+  - mkdir amxmodx-1.8.2-base-linux & cd amxmodx-1.8.2-base-linux & tar -zxvf amxmodx-1.8.2-base-linux.tar.gz
 script:
   - ls amxmodx-1.8.2-base-linux
