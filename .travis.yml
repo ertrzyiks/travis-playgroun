@@ -1,5 +1,6 @@
 language: bash
 before_script:
+  - chmod -R 0777 ./bin
   - ./bin/amxx-install.sh
 script:
   - ./bin/amxx-compile.sh
