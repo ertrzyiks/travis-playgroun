@@ -1,4 +1,4 @@
-#!/bin/sh
+#!/usr/bin/env sh
 version="1.8.2"
 base_url="http://y4kstudios.com/sourcemod/mirror/amxmodx-1.8.2-base-linux.tar.gz"
 
