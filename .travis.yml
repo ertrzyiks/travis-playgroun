@@ -1,5 +1,5 @@
 language: bash
 before_script:
-  - bash ./bin/amxx-install.sh
+  - ./bin/amxx-install.sh
 script:
-  - bash ./bin/amxx-compile.sh
+  - ./bin/amxx-compile.sh
