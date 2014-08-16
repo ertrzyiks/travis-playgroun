@@ -5,5 +5,5 @@ base_path=`pwd`
 if [ $# -eq 0 ]; then
     echo "No Args";
 else
-    cd amxmodx-$version/addons/amxmodx/scripting && bash ./amxxpc "$base_path/$1" -o$base_path/$1.amxx
+    cd amxmodx-$version/addons/amxmodx/scripting && ./amxxpc "$base_path/$1" -o$base_path/$1.amxx
 fi
