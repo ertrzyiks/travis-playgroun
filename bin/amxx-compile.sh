@@ -1,4 +1,4 @@
-#!/bin/sh
+#!/usr/bin/env sh
 version="1.8.2"
 base_path=`pwd`
 
