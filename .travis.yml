@@ -1,4 +1,4 @@
 before_script:
-  - ./bin/amxx-install.sh
+  - bash ./bin/amxx-install.sh
 script:
-  - ./bin/amxx-compile.sh test.sma
+  - bash ./bin/amxx-compile.sh test.sma
