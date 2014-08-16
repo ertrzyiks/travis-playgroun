@@ -2,6 +2,7 @@ language: bash
 before_script:
   - chmod -R 0777 ./bin
   - ./bin/amxx-install.sh
+  - export PATH=$PATH:$PWD/amxmodx-1.8.2/addons/amxmodx/scripting
 script:
   - echo $PATH
   - ./bin/amxx-compile.sh test.sma
