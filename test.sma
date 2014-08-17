@@ -1,5 +1,5 @@
 #include <amxmodx>
 
 public plugin_init(){
-  a = 1;
+  //a = 1;
 }
