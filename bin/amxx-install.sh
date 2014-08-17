@@ -1,6 +1,7 @@
 #!/bin/bash
 
 git clone https://github.com/alliedmodders/amxmodx.git
+git fetch
 git checkout tags/amxmodx-1.8.2
 
 wget https://raw2.github.com/alliedmodders/amxmodx/master/support/checkout-deps.sh
