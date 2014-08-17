@@ -11,5 +11,5 @@ cd build
 python ../amxmodx/configure.py --no-mysql
 
 #Test installation
-cd packages\base\addons\amxmodx\scripting
+cd packages/base/addons/amxmodx/scripting
 ./compile.sh
