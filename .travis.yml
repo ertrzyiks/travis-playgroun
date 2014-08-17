@@ -3,7 +3,5 @@ before_script:
   - chmod -R 0777 ./bin
   - ./bin/amxx-install.sh
   - chmod -R 0777 ./amxmodx-1.8.2
-  - export PATH=$PATH:$PWD/amxmodx-1.8.2/addons/amxmodx/scripting
 script:
-  - echo $PATH
-  - amxxpc test.sma
+  - cd amxmodx-1.8.2/addons/amxmodx/scripting && amxxpc test.sma
