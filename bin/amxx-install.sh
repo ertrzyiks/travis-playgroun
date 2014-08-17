@@ -1,9 +1,15 @@
-#!/usr/bin/env sh
-version="1.8.2"
-base_url="https://github.com/alliedmodders/amxmodx.git"
+#!/bin/bash
 
-mkdir amxmodx-$version
-cd amxmodx-$version
+git clone https://github.com/alliedmodders/amxmodx.git
+git checkout tags/amxmodx-1.8.2
 
-git clone $base_url
-ls -ltR
+wget https://raw2.github.com/alliedmodders/amxmodx/master/support/checkout-deps.sh
+bash checkout-deps.sh --no-mysql
+
+mkdir build
+cd build
+python ../amxmodx/configure.py --no-mysql
+
+#Test installation
+cd packages\base\addons\amxmodx\scripting
+./compile.sh
