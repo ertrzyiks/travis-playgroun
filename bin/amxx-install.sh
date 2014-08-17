@@ -1,10 +1,9 @@
 #!/usr/bin/env sh
 version="1.8.2"
-base_url="http://y4kstudios.com/sourcemod/mirror/amxmodx-1.8.2-base-linux.tar.gz"
+base_url="https://github.com/alliedmodders/amxmodx.git"
 
 mkdir amxmodx-$version
 cd amxmodx-$version
 
-wget $base_url -O package-base.tar.gz
-tar -zxvf package-base.tar.gz
-chmod -R 0777 .
+git clone $base_url
+ls -ltR
