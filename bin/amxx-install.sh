@@ -8,6 +8,7 @@ bash checkout-deps.sh --no-mysql
 
 python amxmodx/configure.py --no-mysql
 
+mkdir build
 ambuild build
 
 #Test installation
