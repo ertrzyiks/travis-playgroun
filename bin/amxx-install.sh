@@ -12,7 +12,3 @@ python ../amxmodx/configure.py --no-mysql
 cd ..
 
 ambuild build
-
-#Test installation
-cd build/packages/base/addons/amxmodx/scripting
-./compile.sh
