@@ -4,4 +4,4 @@ before_script:
   - ./bin/amxx-install.sh
   - chmod -R 0777 ./amxmodx-1.8.2
 script:
-  - cd amxmodx-1.8.2/addons/amxmodx/scripting && amxxpc test.sma
+  - cd amxmodx-1.8.2/addons/amxmodx/scripting && ./amxxpc test.sma
