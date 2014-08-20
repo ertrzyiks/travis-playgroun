@@ -1,7 +1,7 @@
 language: bash
 before_script:
   - sudo apt-get update -qq
-  - sudo apt-get install lib32z1
+  - sudo apt-get install libc6-i386
   - npm install
   - npm install -g grunt-cli
   - chmod -R 0777 ./bin && ./bin/amxx-install.sh
