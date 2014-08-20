@@ -1,7 +1,6 @@
 language: bash
 before_script:
-  - sudo apt-get update -qq
-  - sudo apt-get install -y g++-multilib libc6-dev-i386 lib32stdc++6 lib32z1-dev
+  - sudo apt-get install ia32-libs
   - npm install
   - npm install -g grunt-cli
   - chmod -R 0777 ./bin && ./bin/amxx-install.sh
