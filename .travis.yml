@@ -4,4 +4,4 @@ before_script:
   - npm install -g grunt-cli
   - chmod -R 0777 ./bin && ./bin/amxx-install.sh
 script:
-  - ls -ltR
+  - cd addons/amxmodx/scripting && ./amxxpc -v
