@@ -1,7 +1,5 @@
 language: bash
 before_script:
-  - sudo apt-get update
-  - sudo apt-get install libc6-i386
   - npm install
   - npm install -g grunt-cli
   - ./node_modules/.bin/amxx-install
