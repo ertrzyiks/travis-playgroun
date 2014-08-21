@@ -7,3 +7,4 @@ before_script:
   - ./node_modules/.bin/amxx-install
 script:
   - grunt
+  - node test-arch.js
