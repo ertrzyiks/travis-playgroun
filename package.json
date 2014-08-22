@@ -7,7 +7,7 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "devDependencies": {
-    "grunt-amxmodx": "git+https://github.com/ertrzyiks/grunt-amxmodx.git"
+    "grunt-amxmodx": "latest"
   },
   "repository": {
     "type": "git",
